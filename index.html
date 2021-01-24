@@ -1,0 +1,45 @@
+---
+layout: default
+overtitle: a place for games, playful arts things, and the people who make and play them.
+description: 
+title: home
+featured_image: /images/social.jpg
+---
+
+<div class="page-home">
+
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" draggable="false">
+	{% endif %}
+
+		<div class="wrap">
+			<div class="title other-stuff">
+				<!-- <p class="subtitle--tagline">
+				a place for games, playful arts things, and the people who make and play them.
+				</p> -->
+				<div class="wavy">
+				<p class="subtitle--tagline">	
+					<span style="--i:1;">a</span><span style="--i:2;">&nbsp;</span><span style="--i:3;">p</span><span style="--i:4;">l</span><span style="--i:5;">a</span><span style="--i:6;">c</span><span style="--i:7;">e</span><span style="--i:8;">&nbsp;</span><span style="--i:9;">f</span><span style="--i:10;">o</span><span style="--i:11;">r</span><span style="--i:12;">&nbsp;</span><span style="--i:13;">g</span><span style="--i:14;">a</span><span style="--i:15;">m</span><span style="--i:16;">e</span><span style="--i:17;">s</span><span style="--i:18;">,</span>
+				</br>
+				<span style="--i:19;">&nbsp;</span><span style="--i:20;">p</span><span style="--i:21;">l</span><span style="--i:22;">a</span><span style="--i:23;">y</span><span style="--i:24;">f</span><span style="--i:25;">u</span><span style="--i:26;">l</span><span style="--i:27;">&nbsp;</span><span style="--i:28;">a</span><span style="--i:29;">r</span><span style="--i:30;">t</span><span style="--i:31;">s</span><span style="--i:32;">&nbsp;</span><span style="--i:33;">t</span><span style="--i:34;">h</span><span style="--i:35;">i</span><span style="--i:36;">n</span><span style="--i:37;">g</span><span style="--i:38;">s</span><span style="--i:39;">,</span>
+				</br>
+				<span style="--i:40;">&nbsp;</span><span style="--i:41;">a</span><span style="--i:42;">n</span><span style="--i:43;">d</span><span style="--i:44;">&nbsp;</span><span style="--i:45;">t</span><span style="--i:46;">h</span><span style="--i:47;">e</span><span style="--i:48;">&nbsp;</span><span style="--i:49;">p</span><span style="--i:50;">e</span><span style="--i:51;">o</span><span style="--i:52;">p</span><span style="--i:53;">l</span><span style="--i:54;">e</span><span style="--i:55;">&nbsp;</span><span style="--i:56;">w</span><span style="--i:57;">h</span><span style="--i:58;">o</span>
+</br>
+				<span style="--i:59;">&nbsp;</span><span style="--i:60;">m</span><span style="--i:61;">a</span><span style="--i:62;">k</span><span style="--i:63;">e</span><span style="--i:64;">&nbsp;</span><span style="--i:65;">a</span><span style="--i:66;">n</span><span style="--i:67;">d</span><span style="--i:68;">&nbsp;</span><span style="--i:69;">p</span><span style="--i:70;">l</span><span style="--i:71;">a</span><span style="--i:72;">y</span><span style="--i:73;">&nbsp;</span><span style="--i:74;">t</span><span style="--i:75;">h</span><span style="--i:76;">e</span><span style="--i:77;">m</span><span style="--i:78;">.</span>
+				</p>
+				</div>
+				
+			</div>
+
+			<div class="index-socials">
+				{% include component-socials.html %}
+			</div>
+			<div class="other-stuff">
+				<p class="subtitle" style="text-align: center;">We run monthly meet-ups* in Meanjin (Brisbane), sometimes host events and run a Discord. Share your work, get feedback on your projects and chat about what you are making!</p>
+			</div>
+			<div class="other-stuff">
+				<p class="subtitle" style="text-align: right; color: #ff279a;">*Meet-ups are currently running online!</p>
+			</div>
+		</div>
+
+</div>

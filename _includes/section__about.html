@@ -1,0 +1,33 @@
+<section class="about">
+  {% if include.divider == true %}
+    <div class="wrap"><hr/></div>
+    {% endif %}
+  <div class="wrap grid">
+
+    <div class="about__image">
+      <img src="{{ '/images/profile.jpg' | relative_url }}" alt="">
+    </div>
+
+    <div class="about__content">
+      <p>Erika Verkaaik is an award-winning, Brisbane based game designer. They dabble in both digital and analogue games and like to make games about connection, exploration and discovery.</p>
+      <p>They are passionate about small, alternative games and the communities that make them. In their spare time, they organise and run a local game dev meetup called <a href="https://twitter.com/squigglyriver">Squiggly River</a>. They are also on the board for <a href="https://twitter.com/makingspacecoop">Making Space</a>.</p>
+      <p>Erika has a Bachelor of Animation and a Grad Cert in Interaction Design. They will finish their Masters (at some point) but at the moment they are a full time game design lecturer.</p>
+      <hr>
+      <p>You can best contact them through <a href="https://twitter.com/erikaverkaaik">Twitter</a> or via email: <a href="mailto:erikaverkaaik@gmail.com">erikaverkaaik@gmail.com</a></p>
+      <p>Otherwise, you can find them online in various places:</p>
+
+      <div class="left-socials">
+        {% include component-socials.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+  {% include post-components/gallery.html
+    columns = 3
+    full_width = true
+    images = "/images/about/niipa.png,/images/about/reliquary.gif,/images/about/axe.png,/images/about/craftingconsent.png,/images/about/tome.png,/images/about/beautiful.png,/images/about/alight.png,/images/about/temples.png,/images/about/alchemy.gif"
+  %}
+  
+</div>
+</section>

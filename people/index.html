@@ -1,0 +1,52 @@
+---
+layout: default
+title: people
+description:
+featured_image:
+---
+
+<div class="page-blog">
+	<header class="listing other-stuff">
+		<div class="wrap">
+			<div class="title">
+				<h1 class="wavy-underline">people</h1>
+				<h4><strong>Squiggly River only exists because of the wonderful people who contribute:</strong></h4>
+			</div>
+		</div>
+	</header>
+
+
+	<section class="listing">
+		<div class="project__grid">
+			{% for project in site.projects %}
+
+			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
+
+			<div class="project__preview">
+				
+				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
+					{% for image in project.gallery_images %}
+					<img src="{{ '/images/people/' | relative_url}}{{ image }}" alt="" class="project__image">
+					{% endfor %}
+				</div>
+
+				<h4 class="project__title">{{ project.name }}</h4>
+
+				<div class="project__content" style="border-color: {{ accent_color }}">
+					<p class="project__subtitle subtitle--light">{{ project.pronouns }}
+						{% if project.twitter_url %}<a href="{{ project.twitter_url }}"><i class="fab fa-twitter" aria-hidden="false"></i></a>{% endif %}
+					{% if project.itch_url %}<a href="{{ project.itch_url }}"><i class="fab fa-itch-io" aria-hidden="false"></i></a>{% endif %}
+					{% if project.website_url %}<a href="{{ project.website_url }}"><i class="fas fa-home" aria-hidden="false"></i></a>{% endif %}
+					{% if project.other_url %}<a href="{{ project.other_url }}"><i class="fas fa-link" aria-hidden="false"></i></a>{% endif %}
+					</p>
+					<p class="project__description --small">
+						{{ project.bio }}
+					</p>
+				</div>
+			</div>
+
+			{% endfor %}
+		</div>
+	</section>
+	
+</div>

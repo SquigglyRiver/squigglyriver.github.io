@@ -1,0 +1,153 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Section - About
+
+// - - - - - - - - - - - - - - - - - -
+
+.about {
+
+  hr {
+    margin-bottom: 60px;
+  }
+
+  .about__image {
+    width: 100%;
+    margin: 0px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    img {
+      margin-bottom: 24px;
+    }
+  }
+
+  .title {
+    margin-bottom: 16px;
+  }
+
+  .about__content {
+    max-width: 600px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+
+    .title {
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .cta {
+      margin: 8px 0 0 -4px;
+    }
+	}
+	
+
+  @include mq(tabletp) {
+    margin-bottom: 0px;
+		
+    .wrap {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .about__image {
+      width: 100%;
+      margin-left: 0;
+		}
+		
+		.about__content {
+			margin-top: 0px;
+
+			.subtitle {
+				margin-bottom: 24px;
+			}
+		}
+  }
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Social Icons
+
+.socials {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.left-socials .socials {
+  justify-content: left;
+}
+
+.index-socials .socials{
+  justify-content: center;
+  padding: 60px 0px 30px 0px;
+}
+
+.desktop-header .socials {
+  display: none;
+
+  @include mq(tabletp) {
+    display: flex;
+  }
+}
+
+.menu__list .socials {
+  padding-top: 20px;
+
+  @include mq(tabletp) {
+    display: none;
+  }
+}
+
+
+
+.socials__item {
+  margin-left: 0px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.socials__item__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 30%;
+  background: $accent-color;
+  font-size: 22px;
+  color: white;
+  &:hover {
+    background: $accent-color;
+    color: $background-color;
+  }
+
+  &:active {
+    transform: scale(0.92);
+  }
+}
+
+.index-socials .socials__item__link {
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  background: $accent-color;
+  font-size: 60px;
+  color: white;
+  margin: 0 10px;
+
+  &:hover {
+    background: $light-accent-color;
+  }
+}
