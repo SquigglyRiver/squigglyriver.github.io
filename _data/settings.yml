@@ -16,8 +16,8 @@ menu_settings:
       url: '/meetups'
     - title: 'people'
       url:  '/people'
-    - title: 'archive'
-      url: '/blog'
+    # - title: 'archive'
+    #   url: '/blog'
 
 footer_settings:
   logo_image:
