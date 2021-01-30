@@ -1,12 +1,11 @@
 ---
-name: your name or handle
-bio: A short bio about yourself! You can write it in first or third (or second?) person. Just keep it under 150 characters.
-date: 2018-03-29
+name: name
+bio: bio
 pronouns: pronouns
-twitter_url: https://twitter.com/
-itch_url: https://itch.io/
-website_url: https://google.com/
-other_url: https://google.com/
+twitter_url: twitter
+itch_url: itch
+website_url: website
+other_url: other
 accent_color: '#66d4af'
 gallery_images:
   - example.jpg
