@@ -1,7 +1,7 @@
 ---
 name: Noah Seymour
 bio: Noah is a creative person who likes to make a variety of things. Their speciality is Game Design and they are working on Webbed!
-pronouns: They/Them
+pronouns: they/them
 twitter_url: https://twitter.com/noahlseymour
 itch_url: https://noahlseymour.itch.io/
 website_url: 
