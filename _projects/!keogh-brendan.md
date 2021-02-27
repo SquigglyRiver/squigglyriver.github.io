@@ -5,7 +5,7 @@ date: 2018-03-29
 pronouns: he/him
 twitter_url: http://twitter.com/brkeogh
 itch_url: https://brkeogh.itch.io/
-website_url: brkeogh.com
+website_url: https://brkeogh.com/
 other_url: 
 accent_color: '#66d4af'
 gallery_images:

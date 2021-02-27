@@ -4,7 +4,7 @@ bio: Mel is a narrative designer and director of Mellow Games. She loves making 
 pronouns: she/her
 twitter_url: https://twitter.com/Mel__Tea
 itch_url: 
-website_url: mellow-games.com
+website_url: https://mellow-games.com
 other_url: https://www.linkedin.com/in/m3ltaylor/
 accent_color: '#66d4af'
 gallery_images:
