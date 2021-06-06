@@ -18,29 +18,29 @@ featured_image:
 
 	<section class="listing">
 		<div class="project__grid">
-			{% for project in site.projects %}
+			{% for person in site.data.people %}
 
-			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
+			{% if person.accent_color %}{% capture accent_color %}{{ person.accent_color }}{% endcapture %}{% endif %}
 
 			<div class="project__preview">
 				
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for image in project.gallery_images %}
+					{% for image in person.gallery_images %}
 					<img src="{{ '/images/people/' | relative_url}}{{ image }}" alt="" class="project__image">
 					{% endfor %}
 				</div>
 
-				<h4 class="project__title">{{ project.name }}</h4>
+				<h4 class="project__title">{{ person.name }}</h4>
 
 				<div class="project__content" style="border-color: {{ accent_color }}">
-					<p class="project__subtitle subtitle--light">{{ project.pronouns }}
-						{% if project.twitter_url %}<a href="{{ project.twitter_url }}"><i class="fab fa-twitter" aria-hidden="false"></i></a>{% endif %}
-					{% if project.itch_url %}<a href="{{ project.itch_url }}"><i class="fab fa-itch-io" aria-hidden="false"></i></a>{% endif %}
-					{% if project.website_url %}<a href="{{ project.website_url }}"><i class="fas fa-home" aria-hidden="false"></i></a>{% endif %}
-					{% if project.other_url %}<a href="{{ project.other_url }}"><i class="fas fa-link" aria-hidden="false"></i></a>{% endif %}
+					<p class="project__subtitle subtitle--light">{{ person.pronouns }}
+						{% if person.twitter_url %}<a href="{{ person.twitter_url }}"><i class="fab fa-twitter" aria-hidden="false"></i></a>{% endif %}
+					{% if person.itch_url %}<a href="{{ person.itch_url }}"><i class="fab fa-itch-io" aria-hidden="false"></i></a>{% endif %}
+					{% if person.website_url %}<a href="{{ person.website_url }}"><i class="fas fa-home" aria-hidden="false"></i></a>{% endif %}
+					{% if person.other_url %}<a href="{{ person.other_url }}"><i class="fas fa-link" aria-hidden="false"></i></a>{% endif %}
 					</p>
 					<p class="project__description --small">
-						{{ project.bio }}
+						{{ person.bio }}
 					</p>
 				</div>
 			</div>
