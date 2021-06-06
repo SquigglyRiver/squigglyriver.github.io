@@ -1,0 +1,89 @@
+- name: Brendan Keogh
+  bio: Brendan is a Squiggly River co-organiser. He is videogame culture researcher and critic and an amateur gamemaker.
+  date: 2018-03-29
+  pronouns: he/him
+  twitter_url: http://twitter.com/brkeogh
+  itch_url: https://brkeogh.itch.io/
+  website_url: https://brkeogh.com/
+  other_url: 
+  accent_color: '#66d4af'
+  gallery_images:
+    - BrendanKeogh.jpg
+
+- name: Erika Verkaaik
+  bio: Erika is a Squiggly River co-organiser. They dabble in digital and analogue games and like to make games about connection, exploration and discovery.
+  date: 2018-03-29
+  pronouns: they/them
+  twitter_url: https://twitter.com/erikaverkaaik
+  itch_url: https://erikaverkaaik.itch.io/
+  website_url: https://erikaverkaaik.com/
+  other_url:
+  accent_color: '#66d4af'
+  gallery_images:
+    - ErikaVerkaaik.jpg
+
+- name: Lenny Magner
+  bio: Lenny is an artist and small games maker with a particular interest in Bitsy.
+  pronouns: she/they
+  twitter_url: https://twitter.com/andimlenny
+  itch_url: https://andimlenny.itch.io
+  website_url:
+  other_url: 
+  accent_color: '#66d4af'
+  gallery_images:
+    - LennyMagner.jpg
+
+- name: Riley Neville
+  bio: Riley is an indie developer. They like to make games with weird and cute creatures, physicsy movement mechanics, and procedural animation.
+  pronouns: he/they
+  twitter_url: https://twitter.com/sbuggames
+  itch_url: https://sbug.itch.io/
+  website_url: 
+  other_url: https://store.steampowered.com/search/?developer=Sbug%20Games
+  accent_color: '#66d4af'
+  gallery_images:
+    - RileyNeville.png
+
+- name: Daniel Oaks
+  bio: Daniel's a software developer, artist, and amateur gamemaker. He likes to start too many projects and not finish enough of them.
+  pronouns: he/they
+  twitter_url: https://twitter.com/pixienop
+  itch_url: https://pixienop.itch.io
+  website_url: https://pixienop.net
+  other_url: https://www.youtube.com/channel/UC0WlyM5MFTVDOZqNRxhixnQ
+  accent_color: '#66d4af'
+  gallery_images:
+    - DanielOaks.png
+
+- name: Cypress Reeves
+  bio: Cypress is an occasional game creator and enthusiastic queer who will finish a project one day, she swears.
+  pronouns: she/her
+  twitter_url: https://twitter.com/CypressFluff
+  itch_url: https://cypressfluff.itch.io/
+  website_url: https://blog.cypressfluff.dev
+  other_url: 
+  accent_color: '#66d4af'
+  gallery_images:
+    - CypressReeves.png
+
+- name: Noah Seymour
+  bio: Noah is a creative person who likes to make a variety of things. Their speciality is Game Design and they are working on Webbed!
+  pronouns: they/them
+  twitter_url: https://twitter.com/noahlseymour
+  itch_url: https://noahlseymour.itch.io/
+  website_url: 
+  other_url: 
+  accent_color: '#66d4af'
+  gallery_images:
+    - NoahSeymour.png
+
+- name: Mel Taylor
+  bio: Mel is a narrative designer and director of Mellow Games. She loves making games about human psychology, social commentary, robots and cats.
+  pronouns: she/her
+  twitter_url: https://twitter.com/Mel__Tea
+  itch_url: 
+  website_url: https://mellow-games.com
+  other_url: https://www.linkedin.com/in/m3ltaylor/
+  accent_color: '#66d4af'
+  gallery_images:
+    - MelTaylor.jpg
