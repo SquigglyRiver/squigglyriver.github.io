@@ -131,6 +131,45 @@ mark {
     font-size: $subtitle-size-tagline !important;
     line-height: 65px !important;
     text-align: center !important;
+    display: none;
+
+     @include mq(tabletp) {
+      display: block;
+      text-align: center !important;
+      padding: 0em auto;
+    }
+
+    @include mq(laptop) {
+      display: block;
+      text-align: center !important;
+      padding: 0em auto;
+    }
+
+    @include mq(desktop) {
+      display: block;
+      text-align: center !important;
+      padding: 0em auto;
+    }
+  }
+
+  &--tagline--mobile {
+    @extend .subtitle;
+
+    font-size: $subtitle-size-tagline !important;
+    line-height: 65px !important;
+    text-align: center !important;
+
+    @include mq(tabletp) {
+      display: none;
+    }
+
+    @include mq(laptop) {
+      display: none;
+    }
+
+    @include mq(desktop) {
+      display: none;
+    }
   }
 
   a {
