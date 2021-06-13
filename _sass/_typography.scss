@@ -160,15 +160,15 @@ mark {
     text-align: center !important;
 
     @include mq(tabletp) {
-      display: none;
+      display: none !important;
     }
 
     @include mq(laptop) {
-      display: none;
+      display: none !important;
     }
 
     @include mq(desktop) {
-      display: none;
+      display: none !important;
     }
   }
 
