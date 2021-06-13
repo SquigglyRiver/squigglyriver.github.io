@@ -159,7 +159,15 @@ mark {
     line-height: 65px !important;
     text-align: center !important;
 
+    @include mq(phonel) {
+      display: none !important;
+    }
+
     @include mq(tabletp) {
+      display: none !important;
+    }
+
+    @include mq(tabletl) {
       display: none !important;
     }
 
