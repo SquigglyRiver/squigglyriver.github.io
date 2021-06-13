@@ -133,11 +133,24 @@ mark {
     text-align: center !important;
     display: none;
 
+     @include mq(phonel) {
+      display: block;
+      text-align: center !important;
+      padding: 0em auto;
+    }
+
      @include mq(tabletp) {
       display: block;
       text-align: center !important;
       padding: 0em auto;
     }
+
+    @include mq(tabletl) {
+      display: block;
+      text-align: center !important;
+      padding: 0em auto;
+    }
+
 
     @include mq(laptop) {
       display: block;
@@ -155,8 +168,8 @@ mark {
   &--tagline--mobile {
     @extend .subtitle;
 
-    font-size: $subtitle-size-tagline !important;
-    line-height: 65px !important;
+    font-size: 54px !important;
+    line-height: 60px !important;
     text-align: center !important;
 
     @include mq(phonel) {
