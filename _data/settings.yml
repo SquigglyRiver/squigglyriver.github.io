@@ -22,7 +22,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 
-  tagline: The Squiggly River Games Collective is an arts collective and community founded in 2017 and run by <a href="https://twitter.com/erikaverkaaik">Erika Verkaaik</a> and <a href="https://twitter.com/BRKeogh">Brendan Keogh</a>. We acknowledge the Turrbal and Yuggera people, as the First Nations owners of the lands where Squiggly River Game Collective meets. We pay respect to their Elders, lores, customs and creation spirits. Sovereignty was never ceded.
+  #tagline: The Squiggly River Games Collective is an arts collective and community founded in 2017 and run by <a href="https://twitter.com/erikaverkaaik">Erika Verkaaik</a> and <a href="https://twitter.com/BRKeogh">Brendan Keogh</a>. We acknowledge the Turrbal and Yuggera people, as the First Nations owners of the lands where Squiggly River Game Collective meets. We pay respect to their Elders, lores, customs and creation spirits. Sovereignty was never ceded.
 hero_settings:
   background_image:
 

@@ -1,6 +1,6 @@
 ---
 name: Ben Follington
-bio: λ programmer, artist, user interface designer. Co-founder of TwoPM Studios.
+bio: A programmer, artist, user interface designer. Co-founder of TwoPM Studios.
 pronouns: he/him
 twitter_url: https://twitter.com/vivavolt
 itch_url: https://twopm.itch.io/

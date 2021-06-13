@@ -1,6 +1,6 @@
 ---
 name: Benjamin Corrie
-bio: MAlso known as Bunjamoon, Benjamin is a character illustrator, concept artist and UI artist who has developed a love for all things fantasy and bringing escapist experiences to involved narratives with eccentric characters.
+bio: Also known as Bunjamoon, Benjamin is a character illustrator, concept artist and UI artist who has developed a love for all things fantasy and bringing escapist experiences to involved narratives with eccentric characters.
 pronouns: he/him
 twitter_url: https://twitter.com/Bunjamoon
 itch_url: 
