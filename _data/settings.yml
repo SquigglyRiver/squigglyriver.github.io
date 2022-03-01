@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: squiggly river
+  site_title: squiggly&nbsp;river
   favicon_image: images/icons/sparkle.svg
 
 header_settings:
@@ -14,6 +14,8 @@ menu_settings:
       url: '/manifesto'
     - title: 'meetups'
       url: '/meetups'
+    - title: 'artgame&nbsp;club'
+      url: '/artgame-club'
     - title: 'people'
       url:  '/people'
     # - title: 'archive'
